@@ -13,14 +13,14 @@ public class EndUser {
 		Session s = sf.openSession();
 		
 		//insert operation
-		/*Employee emp = new Employee();
+		Employee emp = new Employee();
 		emp.setId(103);
-		emp.setName("Teja");
-		emp.setGender("Female");
+		emp.setName("Shanmukh");
+		emp.setGender("Male");
 		emp.setSalary(34261.14);
 		Transaction txt = s.beginTransaction();
 		s.save(emp);
-		txt.commit();*/
+		txt.commit();
 		
 		//Update operation 1st way
 		/*Employee emp = new Employee();
